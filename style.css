@@ -1,0 +1,71 @@
+
+h2{
+    color:black; font-size:90px;
+    display: inline;
+    cursor: pointer;
+}
+
+pre{
+    color: black; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 75px;
+    cursor:pointer;
+}
+ .one{
+    background-color: black;
+    display: inline-block;
+    margin:125px;
+    border: 12px;
+    border-color: bisque;
+    border-style: solid;
+    width: 1500px;
+    height: 1500px;
+
+    overflow: hidden;
+    color: white;
+   
+ }
+ .two {
+    background-color: black;
+    display: inline-block;
+    width: 1500px;
+    height: 1500px;
+    margin: 125px;
+    border: 12px;
+    border-color: bisque;
+    border-style: solid;
+    overflow: hidden;
+ }
+ .three{
+    background-color: black;
+    display:inline-block;
+    width: 1500px;
+    height:1500px;
+    margin: 125px;
+    border: 12px;
+    border-color: bisque;
+    border-style: solid;
+    overflow: hidden;
+ }
+
+ input{
+    width: 1500px;
+    height: 95px;
+    padding:44px;
+    font-size: 450%;
+    display: inline-block;
+ }
+.searchbar{
+   text-align: center;
+}
+.destinations{
+   text-align: center;
+}
+p{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 500%; ;
+   color: beige;
+   cursor: pointer;
+}
+.one:hover p,.two:hover p , .three:hover p{
+   background-color:whitesmoke;
+   color: black;
+}
