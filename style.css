@@ -1,71 +1,43 @@
-
-h2{
-    color:black; font-size:90px;
-    display: inline;
-    cursor: pointer;
-}
-
-pre{
-    color: black; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 75px;
-    cursor:pointer;
-}
- .one{
+nav{
     background-color: black;
-    display: inline-block;
-    margin:125px;
-    border: 12px;
-    border-color: bisque;
-    border-style: solid;
-    width: 1500px;
-    height: 1500px;
+    border: solid wheat;
+}
+h1{
+ text-align: center; 
+ color: white; 
+}
+li,ul{
+   display: inline;
+}
+ul{
+    margin-left: 60%;
+}
+li{
+    color: grey;
+    font-size: 100%;
+    margin:5px
 
-    overflow: hidden;
+}
+li:hover{
     color: white;
-   
- }
- .two {
-    background-color: black;
-    display: inline-block;
-    width: 1500px;
-    height: 1500px;
-    margin: 125px;
-    border: 12px;
-    border-color: bisque;
-    border-style: solid;
-    overflow: hidden;
- }
- .three{
-    background-color: black;
-    display:inline-block;
-    width: 1500px;
-    height:1500px;
-    margin: 125px;
-    border: 12px;
-    border-color: bisque;
-    border-style: solid;
-    overflow: hidden;
- }
+}
+div{
+    text-align: center;
+    margin-left:35%;
+    border: solid black;
+    height:250px;
+    width:350px;
+    margin-top: 25px;
+}
 
- input{
-    width: 1500px;
-    height: 95px;
-    padding:44px;
-    font-size: 450%;
-    display: inline-block;
- }
-.searchbar{
-   text-align: center;
+.bar{
+      margin-left:50px;
+      margin-top: 25px;
+      margin-right: 50x;
+      margin-bottom: 25px;
+
 }
-.destinations{
-   text-align: center;
-}
-p{
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   font-size: 500%; ;
-   color: beige;
-   cursor: pointer;
-}
-.one:hover p,.two:hover p , .three:hover p{
-   background-color:whitesmoke;
-   color: black;
+h2{
+    text-align: center;
+    color: black;
 }
